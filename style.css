@@ -1,0 +1,8 @@
+*{box-sizing:border-box}body{font-family:Segoe UI,sans-serif;margin:0;background:#faf6f0;color:#2b2b2b}
+nav{background:#7a1f2b;padding:12px 20px;display:flex;flex-wrap:wrap;gap:16px;align-items:center}nav b{color:#f5c15d;font-size:1.3rem;margin-right:auto}nav a{color:#fff;text-decoration:none}
+.hero{background:#7a1f2b;color:#fff;text-align:center;padding:80px 20px}
+.btn{display:inline-block;background:#f5c15d;color:#3a0d14;padding:10px 22px;border:0;border-radius:6px;font-weight:600;text-decoration:none;cursor:pointer;margin:4px}
+.wrap{max-width:800px;margin:24px auto;padding:0 16px}form label{display:block;margin:12px 0 4px;font-weight:600}
+input,select,textarea{width:100%;padding:9px;border:1px solid #bbb;border-radius:6px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.card{background:#fff;padding:18px;border-radius:8px;box-shadow:0 1px 6px #0002;margin:16px 0}.err{color:#b00020;font-weight:600}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
